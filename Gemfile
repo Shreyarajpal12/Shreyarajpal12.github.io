@@ -16,7 +16,10 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# wdm 0.1.x does not compile on Ruby 3.3+. It is optional and only accelerates
+# watch-mode file detection on older Windows Ruby installations.
+gem "wdm", "~> 0.1.0" if Gem.win_platform? && RUBY_VERSION < "3.3"
+gem "tzinfo-data", platforms: :windows
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

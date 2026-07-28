@@ -8,41 +8,41 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Danial Kamali"
+title                    : "Shreya Rajpal"
 title_separator          : "-"
-name                     : &name "Danial Kamali"
-description              : &description "Artificial Intelligence Researcher"
-url                      : https://iamdanialkamali.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Shreya Rajpal"
+description              : &description "Ph.D. researcher in trustworthy neuro-symbolic reasoning"
+url                      : "" # Add the deployed site URL here before publishing.
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "iamdanialkamali/iamdanialkamali.github.io"
+repository               : ""
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Danial Kamali"
-  pronouns         : # example: "she/her"  
-  bio              : "Curious AI Researcher"
-  location         : "Michigan"
+  avatar           : "shreya-rajpal.png"
+  name             : "Shreya Rajpal"
+  pronouns         : "she/her"
+  bio              : "Ph.D. researcher in trustworthy neuro-symbolic reasoning"
+  location         : "San Francisco Bay Area, CA"
   employer         : "Michigan State University"
-  uri              : # "iamdanialkamali.github.io"
-  email            : 'https://mailhide.io/e/gFWK6jJX'
+  uri              :
+  email            : "rajpalsh@msu.edu"
 
   # Academic websites
-  arxiv            : #"https://www.semanticscholar.org/author/Danial-Kamali/89382735"
-  googlescholar    : "https://scholar.google.com/citations?user=7HD_2VYAAAAJ"
+  arxiv            :
+  googlescholar    : "https://scholar.google.com/citations?user=5BsDMCYAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : #"https://orcid.org/my-orcid?orcid=0000-0002-2652-2339"
   pubmed           : # None
-  researchgate     : "https://www.researchgate.net/profile/Danial-Kamali"
+  researchgate     :
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "iamdanialkamali"
+  github           :
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -56,7 +56,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "iamdanialkamali"
+  linkedin         : "shreya-rajpal12"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -64,7 +64,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # iamdanialkamali  # Replace this with your X / Twitter handle
+  twitter          :
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
@@ -135,7 +135,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : false # Add an analytics provider and tracking ID when ready.
   google:
     tracking_id          :
 

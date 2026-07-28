@@ -1,17 +1,23 @@
 ---
 permalink: /
-title: "Danial's Website"
+title: "Shreya Rajpal"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am graduate student at Michigan State University working at <a href="https://hlr.github.io/" >HLR lab</a>, specializing in the fascinating intersection of Vision and Language within Computer Science.
-<br/>
-My journey began at Iran University of Science and Technology, where I delved into Computer Engineering, focusing on Facial Expression Recognition and NLP Lexical Analysis. My career has been a blend of rigorous academic research and dynamic industry experience, marked by roles such as Graduate Research Assistant and Backend Team Leader. My work spans developing deep learning tasks, researching compositional generalization in multimodal systems, and leading misinformation detection projects.
+I am a Ph.D. student in Computer Science and Engineering at Michigan State University and an AI Science Intern at Intuit. I am advised by <a href="https://hlr.github.io/" target="_blank" rel="noopener">Prof. Parisa Kordjamshidi</a> in the Heterogeneous Learning &amp; Reasoning Lab, where I develop trustworthy neuro-symbolic methods for complex spatial reasoning.
 
+I am a University Distinguished Fellow and Dr. Frank B. Martin Cum Rec Endowed Fellow.
 
+Previously, I worked on efficient video understanding at the University of Tübingen, trustworthy medical-language-model explanations at IIT Madras, financial LLM applications with Georgia Tech's Financial Services Innovation Lab, and knowledge-graph question answering at the University of Hamburg. At Intuit, I work on RAG pipelines and deep-learning product recommendation systems.
+
+My work has appeared at ACM FAccT, ACL workshops, and ISWC workshops.
+
+<div style="margin: 2rem 0; padding: 1.2rem 1.4rem; border-left: 5px solid #176b87; border-radius: 6px; background: #eaf5fb; color: #123447;">
+  <strong>I am open to collaborations.</strong> Let's connect on <a href="https://www.linkedin.com/in/shreya-rajpal12" target="_blank" rel="noopener">LinkedIn</a> or email me at <a href="mailto:rajpalsh@msu.edu">rajpalsh@msu.edu</a>.
+</div>
 
 <h2>News</h2>
 {% include news.html %}
@@ -20,7 +26,9 @@ My journey began at Iran University of Science and Technology, where I delved in
 {% include base_path %}
 
 {% for post in site.publications reversed %}
+{% if post.featured %}
 {% include short-pub.html %}
+{% endif %}
 {% endfor %}
 
 

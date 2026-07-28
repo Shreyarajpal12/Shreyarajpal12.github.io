@@ -50,7 +50,7 @@
         </div>
         {% else %}
         <div class="text">
-          <a href="mailto:{{ author.email }}">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a>
+          <a href="mailto:{{ author.email }}">{{ author.email }}</a>
         </div>
         {% endif %}
       </div>
