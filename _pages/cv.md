@@ -3,6 +3,7 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+description: "CV of Shreya Rajpal, Ph.D. researcher in trustworthy neuro-symbolic AI and AI Science Intern at Intuit."
 redirect_from:
   - /resume
 ---

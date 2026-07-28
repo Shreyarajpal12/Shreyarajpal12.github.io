@@ -11,10 +11,11 @@ locale                   : "en-US"
 title                    : "Shreya Rajpal"
 title_separator          : "-"
 name                     : &name "Shreya Rajpal"
-description              : &description "Ph.D. researcher in trustworthy neuro-symbolic reasoning"
-url                      : "" # Add the deployed site URL here before publishing.
+description              : &description "Shreya Rajpal is a Ph.D. researcher at Michigan State University working on trustworthy neuro-symbolic AI, spatial reasoning, and language models."
+url                      : "https://shreyarajpal12.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : ""
+repository               : "Shreyarajpal12/Shreyarajpal12.github.io"
+seo_keywords             : "trustworthy AI, neuro-symbolic AI, spatial reasoning, language models, natural language processing, AI research, Shreya Rajpal"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -42,7 +43,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           :
+  github           : "Shreyarajpal12"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -124,13 +125,16 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "shreya-rajpal.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person"
+  name                   : "Shreya Rajpal"
+  links:
+    - "https://scholar.google.com/citations?user=5BsDMCYAAAAJ&hl=en"
+    - "https://www.linkedin.com/in/shreya-rajpal12"
+    - "https://github.com/Shreyarajpal12"
 
 
 # Analytics
@@ -167,6 +171,10 @@ exclude:
   - log
   - node_modules
   - package.json
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
+  - markdown_generator
   - tmp
   - vendor
 keep_files:
