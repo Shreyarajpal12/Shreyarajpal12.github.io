@@ -4,9 +4,14 @@
 
 {% include seo.html %}
 
+<link rel="icon" href="{{ base_path }}/images/shreya-rajpal.svg" type="image/svg+xml" sizes="any">
+<link rel="apple-touch-icon" href="{{ base_path }}/images/shreya-rajpal.svg">
+<meta name="theme-color" content="#176b87">
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
 {% if site.seo_keywords %}<meta name="keywords" content="{{ site.seo_keywords }}">{% endif %}
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="author" content="{{ site.author.name | default: site.name }}">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

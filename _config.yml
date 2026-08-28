@@ -15,7 +15,8 @@ description              : &description "Shreya Rajpal is a Ph.D. researcher at 
 url                      : "https://shreyarajpal12.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Shreyarajpal12/Shreyarajpal12.github.io"
-seo_keywords             : "trustworthy AI, neuro-symbolic AI, spatial reasoning, language models, natural language processing, AI research, Shreya Rajpal"
+seo_keywords             : "Shreya Rajpal, trustworthy AI researcher, neuro-symbolic AI, neuro-symbolic reasoning, spatial reasoning, language models, natural language processing, RAG, AI research, Michigan State University, Intuit"
+seo_topics               : ["trustworthy AI", "neuro-symbolic AI", "spatial reasoning", "natural language processing", "language models", "retrieval-augmented generation"]
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -26,6 +27,7 @@ author:
   name             : "Shreya Rajpal"
   pronouns         : "she/her"
   bio              : "Ph.D. researcher in trustworthy neuro-symbolic reasoning"
+  role             : "Ph.D. Researcher in Trustworthy Neuro-Symbolic AI"
   location         : "San Francisco Bay Area, CA"
   employer         : "Michigan State University"
   uri              :
