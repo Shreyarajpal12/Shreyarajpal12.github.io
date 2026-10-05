@@ -3,7 +3,7 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
-description: "CV of Shreya Rajpal, Ph.D. researcher in trustworthy neuro-symbolic AI and AI Science Intern at Intuit."
+description: "CV of Shreya Rajpal, Michigan State University Ph.D. researcher in trustworthy neuro-symbolic AI and former AI Science Intern at Intuit."
 redirect_from:
   - /resume
 ---
@@ -19,7 +19,7 @@ Education
 Work experience
 ======
 * **AI Science Intern**, Intuit — Jun. 2026–Aug. 2026
-  * Building RAG-based pipelines and deep-learning product recommendation systems for AI-assisted workflows.
+  * Built deep-learning product recommendation systems for AI-assisted workflows.
 * **Graduate Research Assistant**, Heterogeneous Learning & Reasoning Lab, Michigan State University — Aug. 2025–present
   * Researching trustworthy neuro-symbolic spatial reasoning and adaptive language-to-symbolic modality switching for multi-hop problems.
 * **Research Intern**, Health NLP Lab, University of Tübingen — Dec. 2024–Jun. 2025

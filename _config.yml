@@ -11,12 +11,12 @@ locale                   : "en-US"
 title                    : "Shreya Rajpal"
 title_separator          : "-"
 name                     : &name "Shreya Rajpal"
-description              : &description "Shreya Rajpal is a Ph.D. researcher at Michigan State University working on trustworthy neuro-symbolic AI, spatial reasoning, and language models."
+description              : &description "Shreya Rajpal is a Michigan State University Ph.D. researcher working on trustworthy neuro-symbolic AI, spatial reasoning, language models, and recommender systems."
 url                      : "https://shreyarajpal12.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Shreyarajpal12/Shreyarajpal12.github.io"
-seo_keywords             : "Shreya Rajpal, trustworthy AI researcher, neuro-symbolic AI, neuro-symbolic reasoning, spatial reasoning, language models, natural language processing, RAG, AI research, Michigan State University, Intuit"
-seo_topics               : ["trustworthy AI", "neuro-symbolic AI", "spatial reasoning", "natural language processing", "language models", "retrieval-augmented generation"]
+seo_keywords             : "Shreya Rajpal, AI researcher, Michigan State University, EMNLP 2026, trustworthy AI, neuro-symbolic AI, spatial reasoning, language models, recommender systems, Intuit"
+seo_topics               : ["trustworthy AI", "neuro-symbolic AI", "spatial reasoning", "natural language processing", "language models", "retrieval-augmented generation", "recommender systems"]
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
