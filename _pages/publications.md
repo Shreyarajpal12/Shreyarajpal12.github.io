@@ -3,7 +3,7 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
-description: "Publications by Shreya Rajpal on trustworthy AI, neuro-symbolic spatial reasoning, language models, video understanding, and production recommender systems, including EMNLP 2026 work."
+description: "Publications by Shreya Rajpal on symbolic, structured, and trustworthy reasoning, neuro-symbolic AI, spatial reasoning, language and vision, and multimodal language models."
 ---
 
 
