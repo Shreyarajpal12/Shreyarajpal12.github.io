@@ -2,10 +2,10 @@
 title: "Spatial Reasoning via Modality Switching Between Language and Symbolic Representations"
 collection: publications
 permalink: /publication/spatial-reasoning-modality-switching
-date: 2026-08-01
+date: 2026-10-27
 venue: "Findings of the Association for Computational Linguistics: EMNLP 2026"
 featured: true
-paperurl: "https://arxiv.org/pdf/2606.31285"
+paperurl: "https://aclanthology.org/2026.findings-emnlp.2170.pdf"
 codeurl: "https://github.com/HLR/Spatial-Modality-Switching"
 description: "EMNLP 2026 Findings paper by Shreya Rajpal on adaptive switching between language and symbolic representations for trustworthy spatial reasoning."
 authors:

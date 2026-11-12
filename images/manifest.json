@@ -1,6 +1,12 @@
 {
-	"name": "Minimal Mistakes",
+	"name": "Shreya Rajpal",
 	"icons": [
+		{
+			"src": "\/images\/favicon.svg",
+			"sizes": "any",
+			"type": "image\/svg+xml",
+			"purpose": "any"
+		},
 		{
 			"src": "\/images\/android-chrome-36x36.png?v=M44lzPylqQ",
 			"sizes": "36x36",

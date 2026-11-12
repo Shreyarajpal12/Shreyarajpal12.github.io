@@ -2,10 +2,10 @@
 title: "SATURN: Symbolic Spatial Reasoning for Multi-Perspective Grounding"
 collection: publications
 permalink: /publication/saturn
-date: 2026-08-01
+date: 2026-10-27
 venue: "The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026 Main Conference)"
 featured: false
-paperurl: "https://arxiv.org/pdf/2606.22694"
+paperurl: "https://aclanthology.org/2026.emnlp-main.2475.pdf"
 description: "EMNLP 2026 main-conference paper co-authored by Shreya Rajpal on neuro-symbolic, perspective-aware compositional spatial reasoning."
 authors:
   - "Danial Kamali"
